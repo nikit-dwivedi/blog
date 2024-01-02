@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-db=mongoose.connect('mongodb+srv://nikit:nikit@cluster0.053sm.mongodb.net/blogDatabase?retryWrites=true&w=majority',(err)=>{
+db=mongoose.connect('',(err)=>{
     console.log("Database connected")
     if(err){
         console.log(err)
